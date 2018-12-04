@@ -1,0 +1,1717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		034E62ADDBEC43FA99FFF214 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 8515D106B5CA4243B63FF645 /* CDVCamera.m */; };
+		08064995C91849BC95A7580D /* CDVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0756C470C226482FA7D3F448 /* CDVCapture.m */; };
+		0B5EC324C49A4DDD9E995EF6 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D11D9C493F4E219B5749C0 /* CDVAssetLibraryFilesystem.m */; };
+		0BC92D65D25640C1ABC12D8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A1926C67F7498184FFFADA /* CoreLocation.framework */; };
+		12D909B5BF044F7BB5272683 /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0C2B9B6844E3AB7D88F5A /* CDVIonicKeyboard.m */; };
+		14CBC3002C9B415CAB657710 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4D9C7E3AF46A2B9653789 /* GCDWebServerStreamedResponse.m */; };
+		18A56D1637A84427A4FE0FC4 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 146A9978BFEF464B9C9566E3 /* GCDWebServer.m */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D7AE7B1A5614A5180C86C0F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758A14D66C8442789B58DDC7 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1DEF4946D08045F0868A212E /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947AC0039CC4ABBBC8B0F1C /* CDVFileTransfer.m */; };
+		1EA567107AB0427DA961AEDF /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2E2F185A24451A561AE06 /* GoogleUtilities.framework */; };
+		21627B4EC060428EA25EA1C0 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C008E0F1934B8EB88B18A9 /* FirebaseCore.framework */; };
+		22D22C46B4BE4B17A8CA3539 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F985757C304E88BC84BA89 /* CDVSplashScreen.m */; };
+		245949A1E893404DB3442200 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F18E32243947EA9366FA80 /* GCDWebServerRequest.m */; };
+		24AEE19C41B54F44941577A6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7454FC47B29B4DA7A56DA552 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		32DE31C697614A69925EC942 /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F84EDDDB002A4A878E111627 /* CDVWKWebViewEngine.m */; };
+		3653D898B3CB4007A54B8C2A /* PortraitVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C412D47D6944E128F7E0B9D /* PortraitVideo.m */; };
+		3770289B42134B56B574DB89 /* VideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EB9E401C0F4D4D81989844 /* VideoEditor.m */; };
+		3A9FD10C4E22479B96AD1D54 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE159DB24C434CC99ABE2FAC /* FirebaseAnalytics.framework */; };
+		3D771F5BDD794B61BBF73854 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E619AE460E748F79AB0DB3F /* CDVJpegHeaderWriter.m */; };
+		409EEEC3F5B54C56900545B3 /* GoogleIPhoneUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CE55DD2EDF4A768407C54D /* GoogleIPhoneUtilities.framework */; };
+		430FD725BE61421A8DCC96AD /* LandscapeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 886DEC1E4D58462BA41BF2D4 /* LandscapeVideo.m */; };
+		4B47181A007A4F6D915B3F51 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 141068DD77C14C75986C0021 /* CDVFile.m */; };
+		4D320F056BA24A6BA206BFAC /* UIImage+CropScaleOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC870BBB924D3BBA206CFD /* UIImage+CropScaleOrientation.m */; };
+		569D4B05187A4E9ABAF28B1C /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04FF0CB64940A3A597C3B6 /* CDVLocalFilesystem.m */; };
+		582FFEDA2153C60F00F88CDA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 582FFED92153C60F00F88CDA /* GoogleService-Info.plist */; };
+		5F0BB4399DCC4FF2BE188E13 /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCFC2A985D3403089504ACD /* SDAVAssetExportSession.m */; };
+		632E05C9B03D4510A87F4A0C /* UNUserNotificationCenter+APPLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB3F5DAB704F339ED4C717 /* UNUserNotificationCenter+APPLocalNotification.m */; };
+		642497BBFD9A459A934C70BF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696A22254BF43F19053D10E /* AddressBook.framework */; };
+		64C8B1BEA4D4465C8012C825 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C614320BD6240118F9EA9EF /* CDVViewController+SplashScreen.m */; };
+		677A45001A9C478BBBED53E0 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9FCD444CFE4340B093E10A /* GCDWebServerFileRequest.m */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6DCA0AFD85EB4A9FA89D5D2B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD292A9E40431D8B2CCF75 /* MediaPlayer.framework */; };
+		70D3D5262536404188A1C284 /* PaymentsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC23903DB2E4DB2937D98BA /* PaymentsPlugin.m */; };
+		71E24BA9686547B3931275B1 /* StreamingMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B013919E59A4129B4B99DB6 /* StreamingMedia.m */; };
+		75D7C98E2BC646AA8C0C9B7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA89673B492540D988FE6C4F /* Security.framework */; };
+		76D0D23279D54600969973D2 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D1D8869C43468A844D6ADD /* GCDWebServerDataResponse.m */; };
+		7BB59240E166408480DBC1FE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2255F7849BD54D358F7BAA39 /* libz.tbd */; };
+		7C627F368AE54A49BC49F128 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9C7165CC74F648B9C846D /* GCDWebServerMultiPartFormRequest.m */; };
+		7DE3B78B2C324DBEAB572F72 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7022475D890741D0B5AC3CE7 /* libsqlite3.0.tbd */; };
+		7FC88DF286A54C6DBAFCAF37 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A6441A1676CF498F9600F6DF /* GCDWebServerResponse.m */; };
+		8196B6529E95490980D359E1 /* AppDelegate+FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6831885FEB274215AB211348 /* AppDelegate+FCMPlugin.m */; };
+		84DAD6CF48CC4710938C804D /* FCMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC27FA12A74E96BE1B3E0D /* FCMPlugin.m */; };
+		8AAA6C83B3A240079A4A6628 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E58699A3A4A23918FAD1F /* GCDWebServerFileResponse.m */; };
+		97FAB0A808684DFB99C2AB45 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B395DD1B2344DE9C6C4A89 /* libc++.tbd */; };
+		998FBBFE19D24602B479525E /* RMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 359C0A32D77B4FA9A566A7C9 /* RMStore.m */; };
+		9B78D21BD1234FAAA0F1E3D0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DE9CE897CC40B58A51DF83 /* CoreVideo.framework */; };
+		A07B61B7B8304ED2BAB0B1A5 /* APPLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F828407B4AB04B359A551671 /* APPLocalNotification.m */; };
+		ABE1E0FA659B430085BE20AA /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 652E4F02FA554D8381F36950 /* CDVWKProcessPoolFactory.m */; };
+		AD0B19CBC75A40609C7D04F7 /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48357A102246F5B93503E8 /* CDVWKWebViewUIDelegate.m */; };
+		B23FAB44129342CF8FE39278 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 214815F73B904184A2589CC9 /* GCDWebServerErrorResponse.m */; };
+		B34588F19F1A4125A717D2DB /* APPNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7850A094438146CB8C391E1E /* APPNotificationContent.m */; };
+		B45C1781114C4A65BC731B53 /* APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5663F41E595742A893600711 /* APPBadge.m */; };
+		BDA23965E73E4208818772C7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E80935A9B97432B9C61723F /* StoreKit.framework */; };
+		C40E67C53834429CAC9F3692 /* CDVCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E08D598DC224DF4A0250399 /* CDVCapture.bundle */; };
+		C77B1E3A74DA4B5088E34E5E /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA6740FB3324D35B396624D /* FirebaseInstanceID.framework */; };
+		C7A95F2B52AF4F168A2A6248 /* APPNotificationOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4DD5DBFEA84A459F23A3AA /* APPNotificationOptions.m */; };
+		CF4BD88F31894A29898218EC /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE02C8250434E77BD23C180 /* GCDWebServerDataRequest.m */; };
+		CFB2DF027C2647319F63FA42 /* UNNotificationRequest+APPLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C45635D574D98A713F1C8 /* UNNotificationRequest+APPLocalNotification.m */; };
+		D10093957FF7495090B5D682 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85843E3EDD984F1D96A17C6D /* GoogleSymbolUtilities.framework */; };
+		D77230A1D66A47359E039B02 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 549369647A5E498B8AE37C47 /* GCDWebServerConnection.m */; };
+		DAFE805F7D8B4F95897DCE1D /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC8D91676B42BF9B209117 /* CDVDevice.m */; };
+		DCC4E47B189248E4832BA5D0 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB872991EC4CC09EB9E209 /* GCDWebServerURLEncodedFormRequest.m */; };
+		ECF4644B64E5496FBC8D0FBE /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE7BB445C1540549C346842 /* GoogleInterchangeUtilities.framework */; };
+		F12D723D019845C5874F7D99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35756CACC7854D5A808BDEC0 /* AVFoundation.framework */; };
+		FBF9197928254DDDB3BFD7EB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124ECA3F3F984A10A1A6DC86 /* UserNotifications.framework */; };
+		FC1FA1391452405485E3CDE8 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D74A3E0C4D4FFD8F00FB9C /* FirebaseMessaging.framework */; };
+		FE6DFBF410F547A38E360005 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ED42B289884F56BE9F9E05 /* GCDWebServerFunctions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		58D1F45B20E0BFA700B77376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
+			remoteInfo = Cordova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = 5XFitness/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		04A4E229D1C94D15822DDEE0 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = "cordova-plugin-ionic-webview/GCDWebServerPrivate.h"; sourceTree = "<group>"; };
+		06CB9440B1E043609A74C0DC /* CDVSplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
+		0756C470C226482FA7D3F448 /* CDVCapture.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVCapture.m; path = "cordova-plugin-media-capture/CDVCapture.m"; sourceTree = "<group>"; };
+		0A100796B5B347DE937D6465 /* FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FCMPlugin.h; path = "cordova-plugin-fcm/FCMPlugin.h"; sourceTree = "<group>"; };
+		0F4F2883CF3E4C8E9CB773F6 /* CDVFileTransfer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFileTransfer.h; path = "cordova-plugin-file-transfer/CDVFileTransfer.h"; sourceTree = "<group>"; };
+		124ECA3F3F984A10A1A6DC86 /* UserNotifications.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		13EB9E401C0F4D4D81989844 /* VideoEditor.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = VideoEditor.m; path = "cordova-plugin-video-editor/VideoEditor.m"; sourceTree = "<group>"; };
+		141068DD77C14C75986C0021 /* CDVFile.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; };
+		146A9978BFEF464B9C9566E3 /* GCDWebServer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = "cordova-plugin-ionic-webview/GCDWebServer.m"; sourceTree = "<group>"; };
+		17AA17BF39574F2DB6D75EB9 /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropScaleOrientation.h"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; };
+		183C17469B9B49E798F83F83 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = "cordova-plugin-ionic-webview/GCDWebServerResponse.h"; sourceTree = "<group>"; };
+		1C412D47D6944E128F7E0B9D /* PortraitVideo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PortraitVideo.m; path = "cordova-plugin-streaming-media/PortraitVideo.m"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* 5XFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5XFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214815F73B904184A2589CC9 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = "cordova-plugin-ionic-webview/GCDWebServerErrorResponse.m"; sourceTree = "<group>"; };
+		21D8F958EB754829B99567D1 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = "cordova-plugin-ionic-webview/GCDWebServerStreamedResponse.h"; sourceTree = "<group>"; };
+		2255F7849BD54D358F7BAA39 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		22D1D8869C43468A844D6ADD /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = "cordova-plugin-ionic-webview/GCDWebServerDataResponse.m"; sourceTree = "<group>"; };
+		244D92BA9CFA48FCAF409401 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
+		24CC8D91676B42BF9B209117 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		25B0C2B9B6844E3AB7D88F5A /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVIonicKeyboard.m; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BCB872991EC4CC09EB9E209 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = "cordova-plugin-ionic-webview/GCDWebServerURLEncodedFormRequest.m"; sourceTree = "<group>"; };
+		2C1E58699A3A4A23918FAD1F /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = "cordova-plugin-ionic-webview/GCDWebServerFileResponse.m"; sourceTree = "<group>"; };
+		2C614320BD6240118F9EA9EF /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
+		2DEB259AE4DB40AD8AA982EE /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = SDAVAssetExportSession.h; path = "cordova-plugin-video-editor/SDAVAssetExportSession.h"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		3091160EFAF24DB88F22CC8A /* UNUserNotificationCenter+APPLocalNotification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UNUserNotificationCenter+APPLocalNotification.h"; path = "cordova-plugin-local-notification/UNUserNotificationCenter+APPLocalNotification.h"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* 5XFitness-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "5XFitness-Prefix.pch"; sourceTree = "<group>"; };
+		35756CACC7854D5A808BDEC0 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		359C0A32D77B4FA9A566A7C9 /* RMStore.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RMStore.m; path = "cordova-plugin-inapppurchase/RMStore.m"; sourceTree = "<group>"; };
+		3696A22254BF43F19053D10E /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		36B1461D5D234DA98F5844EE /* UNNotificationRequest+APPLocalNotification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UNNotificationRequest+APPLocalNotification.h"; path = "cordova-plugin-local-notification/UNNotificationRequest+APPLocalNotification.h"; sourceTree = "<group>"; };
+		378C45635D574D98A713F1C8 /* UNNotificationRequest+APPLocalNotification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UNNotificationRequest+APPLocalNotification.m"; path = "cordova-plugin-local-notification/UNNotificationRequest+APPLocalNotification.m"; sourceTree = "<group>"; };
+		37F985757C304E88BC84BA89 /* CDVSplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
+		3AFDAC024F634CCB8062EEE6 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = "cordova-plugin-ionic-webview/GCDWebServerURLEncodedFormRequest.h"; sourceTree = "<group>"; };
+		3E08D598DC224DF4A0250399 /* CDVCapture.bundle */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = CDVCapture.bundle; sourceTree = "<group>"; };
+		3E80935A9B97432B9C61723F /* StoreKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3F1E5D15325B4C4FB867A296 /* APPLocalNotification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPLocalNotification.h; path = "cordova-plugin-local-notification/APPLocalNotification.h"; sourceTree = "<group>"; };
+		40B395DD1B2344DE9C6C4A89 /* libc++.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		43A8F83A637C49E7999854DA /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
+		44DE9CE897CC40B58A51DF83 /* CoreVideo.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4718EECAE0A941AE98BDBF4D /* PortraitVideo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PortraitVideo.h; path = "cordova-plugin-streaming-media/PortraitVideo.h"; sourceTree = "<group>"; };
+		4947AC0039CC4ABBBC8B0F1C /* CDVFileTransfer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVFileTransfer.m; path = "cordova-plugin-file-transfer/CDVFileTransfer.m"; sourceTree = "<group>"; };
+		549369647A5E498B8AE37C47 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = "cordova-plugin-ionic-webview/GCDWebServerConnection.m"; sourceTree = "<group>"; };
+		54953B3765D344358DED70A6 /* StreamingMedia.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = StreamingMedia.h; path = "cordova-plugin-streaming-media/StreamingMedia.h"; sourceTree = "<group>"; };
+		55ED42B289884F56BE9F9E05 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = "cordova-plugin-ionic-webview/GCDWebServerFunctions.m"; sourceTree = "<group>"; };
+		5663F41E595742A893600711 /* APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBadge.m; path = "cordova-plugin-badge/APPBadge.m"; sourceTree = "<group>"; };
+		57F8654CEE174F8695652A44 /* PaymentsPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PaymentsPlugin.h; path = "cordova-plugin-inapppurchase/PaymentsPlugin.h"; sourceTree = "<group>"; };
+		582FFED92153C60F00F88CDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../5xpush/platforms/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58FFF4F32181CEE800FFE5E6 /* 5XFitness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = 5XFitness.entitlements; path = 5XFitness/5XFitness.entitlements; sourceTree = "<group>"; };
+		59B4E89BF80D48AD8DBD639D /* VideoEditor.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = VideoEditor.h; path = "cordova-plugin-video-editor/VideoEditor.h"; sourceTree = "<group>"; };
+		5DFC870BBB924D3BBA206CFD /* UIImage+CropScaleOrientation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropScaleOrientation.m"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.m"; sourceTree = "<group>"; };
+		63F2E124E70C4B6487121681 /* Firebase.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = "cordova-plugin-fcm/Firebase.h"; sourceTree = "<group>"; };
+		64C6CB179F2F40AB9439F1C4 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; };
+		652E4F02FA554D8381F36950 /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKProcessPoolFactory.m; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; };
+		6710159DF17B4FF3AABE0ED1 /* APPNotificationOptions.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPNotificationOptions.h; path = "cordova-plugin-local-notification/APPNotificationOptions.h"; sourceTree = "<group>"; };
+		6831885FEB274215AB211348 /* AppDelegate+FCMPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+FCMPlugin.m"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.m"; sourceTree = "<group>"; };
+		68DB3F5DAB704F339ED4C717 /* UNUserNotificationCenter+APPLocalNotification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UNUserNotificationCenter+APPLocalNotification.m"; path = "cordova-plugin-local-notification/UNUserNotificationCenter+APPLocalNotification.m"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = 5XFitness/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6C17E2D5563345CCAD70AEC5 /* LandscapeVideo.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = LandscapeVideo.h; path = "cordova-plugin-streaming-media/LandscapeVideo.h"; sourceTree = "<group>"; };
+		6DB2E2165E3B4F2BB50DB5FA /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVIonicKeyboard.h; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; };
+		7022475D890741D0B5AC3CE7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7454FC47B29B4DA7A56DA552 /* ImageIO.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		758A14D66C8442789B58DDC7 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		75D74A3E0C4D4FFD8F00FB9C /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/FirebaseMessaging.framework"; sourceTree = "<group>"; };
+		7850A094438146CB8C391E1E /* APPNotificationContent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPNotificationContent.m; path = "cordova-plugin-local-notification/APPNotificationContent.m"; sourceTree = "<group>"; };
+		7FCC27FA12A74E96BE1B3E0D /* FCMPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FCMPlugin.m; path = "cordova-plugin-fcm/FCMPlugin.m"; sourceTree = "<group>"; };
+		8277D5CCC6E54245BD155002 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = "cordova-plugin-ionic-webview/GCDWebServerFileRequest.h"; sourceTree = "<group>"; };
+		84A1926C67F7498184FFFADA /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8515D106B5CA4243B63FF645 /* CDVCamera.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVCamera.m; path = "cordova-plugin-camera/CDVCamera.m"; sourceTree = "<group>"; };
+		852B8E41A5094249AAEB7117 /* APPNotificationContent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPNotificationContent.h; path = "cordova-plugin-local-notification/APPNotificationContent.h"; sourceTree = "<group>"; };
+		85843E3EDD984F1D96A17C6D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/GoogleSymbolUtilities.framework"; sourceTree = "<group>"; };
+		86C9C7165CC74F648B9C846D /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = "cordova-plugin-ionic-webview/GCDWebServerMultiPartFormRequest.m"; sourceTree = "<group>"; };
+		885C495AB9EF4DF895B75D2B /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewUIDelegate.h; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; };
+		886DEC1E4D58462BA41BF2D4 /* LandscapeVideo.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = LandscapeVideo.m; path = "cordova-plugin-streaming-media/LandscapeVideo.m"; sourceTree = "<group>"; };
+		89CE95304A714E1C868606CE /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = "cordova-plugin-ionic-webview/GCDWebServerDataRequest.h"; sourceTree = "<group>"; };
+		8B5BABCC559C425AA32063BD /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewEngine.h; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.h"; sourceTree = "<group>"; };
+		8BA577D96D2E495EB70C2752 /* CDVCamera.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVCamera.h; path = "cordova-plugin-camera/CDVCamera.h"; sourceTree = "<group>"; };
+		8D04FF0CB64940A3A597C3B6 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* 5XFitness-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "5XFitness-Info.plist"; path = "5XFitness/5XFitness-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		8E619AE460E748F79AB0DB3F /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVJpegHeaderWriter.m; path = "cordova-plugin-camera/CDVJpegHeaderWriter.m"; sourceTree = "<group>"; };
+		943773581367488F9FE70989 /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKProcessPoolFactory.h; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; };
+		96CE55DD2EDF4A768407C54D /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/GoogleIPhoneUtilities.framework"; sourceTree = "<group>"; };
+		99BD292A9E40431D8B2CCF75 /* MediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9AE02C8250434E77BD23C180 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = "cordova-plugin-ionic-webview/GCDWebServerDataRequest.m"; sourceTree = "<group>"; };
+		9B013919E59A4129B4B99DB6 /* StreamingMedia.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = StreamingMedia.m; path = "cordova-plugin-streaming-media/StreamingMedia.m"; sourceTree = "<group>"; };
+		9B767E705AA14968B915E22C /* GCDWebServerConnection.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = "cordova-plugin-ionic-webview/GCDWebServerConnection.h"; sourceTree = "<group>"; };
+		9C3DC0F914C648C1934856AB /* CDVCapture.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVCapture.h; path = "cordova-plugin-media-capture/CDVCapture.h"; sourceTree = "<group>"; };
+		A6441A1676CF498F9600F6DF /* GCDWebServerResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = "cordova-plugin-ionic-webview/GCDWebServerResponse.m"; sourceTree = "<group>"; };
+		ADDBD3928A9B40C3BF5ADE3F /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = "cordova-plugin-ionic-webview/GCDWebServerMultiPartFormRequest.h"; sourceTree = "<group>"; };
+		ADE265C7D58448E0849E2944 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = "cordova-plugin-ionic-webview/GCDWebServerErrorResponse.h"; sourceTree = "<group>"; };
+		AE159DB24C434CC99ABE2FAC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
+		AE48357A102246F5B93503E8 /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewUIDelegate.m; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; };
+		B183DA8C63B2422D86BCE64B /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = "cordova-plugin-ionic-webview/GCDWebServerDataResponse.h"; sourceTree = "<group>"; };
+		B1C008E0F1934B8EB88B18A9 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/FirebaseCore.framework"; sourceTree = "<group>"; };
+		B4F18E32243947EA9366FA80 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = "cordova-plugin-ionic-webview/GCDWebServerRequest.m"; sourceTree = "<group>"; };
+		B78E791CD90341D08D01AD27 /* GCDWebServer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = "cordova-plugin-ionic-webview/GCDWebServer.h"; sourceTree = "<group>"; };
+		BA89673B492540D988FE6C4F /* Security.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C1B439FCE46B4DE0A1F1539E /* AppDelegate+FCMPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+FCMPlugin.h"; path = "cordova-plugin-fcm/AppDelegate+FCMPlugin.h"; sourceTree = "<group>"; };
+		C7E4D9C7E3AF46A2B9653789 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = "cordova-plugin-ionic-webview/GCDWebServerStreamedResponse.m"; sourceTree = "<group>"; };
+		CCA6740FB3324D35B396624D /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/FirebaseInstanceID.framework"; sourceTree = "<group>"; };
+		CCCFC2A985D3403089504ACD /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = SDAVAssetExportSession.m; path = "cordova-plugin-video-editor/SDAVAssetExportSession.m"; sourceTree = "<group>"; };
+		CD086961757C45C483B12EC3 /* APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBadge.h; path = "cordova-plugin-badge/APPBadge.h"; sourceTree = "<group>"; };
+		CD4DD5DBFEA84A459F23A3AA /* APPNotificationOptions.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPNotificationOptions.m; path = "cordova-plugin-local-notification/APPNotificationOptions.m"; sourceTree = "<group>"; };
+		CE9FCD444CFE4340B093E10A /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = "cordova-plugin-ionic-webview/GCDWebServerFileRequest.m"; sourceTree = "<group>"; };
+		D0582C5BFEB34BEF876DF0EA /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVJpegHeaderWriter.h; path = "cordova-plugin-camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; };
+		D8B6840ECA854051A8BE93BB /* CDVFile.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; };
+		DB1E28E41876487D81BB35D3 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = "cordova-plugin-ionic-webview/GCDWebServerRequest.h"; sourceTree = "<group>"; };
+		DDE7BB445C1540549C346842 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/GoogleInterchangeUtilities.framework"; sourceTree = "<group>"; };
+		DFC23903DB2E4DB2937D98BA /* PaymentsPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PaymentsPlugin.m; path = "cordova-plugin-inapppurchase/PaymentsPlugin.m"; sourceTree = "<group>"; };
+		DFD2E2F185A24451A561AE06 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "5XFitness/Plugins/cordova-plugin-fcm/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		E32772757B104D2B9A739D2F /* CDVExif.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVExif.h; path = "cordova-plugin-camera/CDVExif.h"; sourceTree = "<group>"; };
+		E7D11D9C493F4E219B5749C0 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; };
+		EB483C9F999F41DF9297D765 /* RMStore.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RMStore.h; path = "cordova-plugin-inapppurchase/RMStore.h"; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EEEFACF007D542D9A2809F86 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = "cordova-plugin-ionic-webview/GCDWebServerFunctions.h"; sourceTree = "<group>"; };
+		F17E8AFDA9D74156967CF0B6 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		F51FFDC6A84E4DF6BF0F160B /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = "cordova-plugin-ionic-webview/GCDWebServerFileResponse.h"; sourceTree = "<group>"; };
+		F828407B4AB04B359A551671 /* APPLocalNotification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPLocalNotification.m; path = "cordova-plugin-local-notification/APPLocalNotification.m"; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = 5XFitness/config.xml; sourceTree = "<group>"; };
+		F84EDDDB002A4A878E111627 /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewEngine.m; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.m"; sourceTree = "<group>"; };
+		FEC62E5C2EF24820985A7EF1 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = "cordova-plugin-ionic-webview/GCDWebServerHTTPStatusCodes.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				24AEE19C41B54F44941577A6 /* ImageIO.framework in Frameworks */,
+				0BC92D65D25640C1ABC12D8D /* CoreLocation.framework in Frameworks */,
+				F12D723D019845C5874F7D99 /* AVFoundation.framework in Frameworks */,
+				1D7AE7B1A5614A5180C86C0F /* WebKit.framework in Frameworks */,
+				7BB59240E166408480DBC1FE /* libz.tbd in Frameworks */,
+				BDA23965E73E4208818772C7 /* StoreKit.framework in Frameworks */,
+				6DCA0AFD85EB4A9FA89D5D2B /* MediaPlayer.framework in Frameworks */,
+				9B78D21BD1234FAAA0F1E3D0 /* CoreVideo.framework in Frameworks */,
+				FBF9197928254DDDB3BFD7EB /* UserNotifications.framework in Frameworks */,
+				3A9FD10C4E22479B96AD1D54 /* FirebaseAnalytics.framework in Frameworks */,
+				21627B4EC060428EA25EA1C0 /* FirebaseCore.framework in Frameworks */,
+				C77B1E3A74DA4B5088E34E5E /* FirebaseInstanceID.framework in Frameworks */,
+				FC1FA1391452405485E3CDE8 /* FirebaseMessaging.framework in Frameworks */,
+				ECF4644B64E5496FBC8D0FBE /* GoogleInterchangeUtilities.framework in Frameworks */,
+				409EEEC3F5B54C56900545B3 /* GoogleIPhoneUtilities.framework in Frameworks */,
+				D10093957FF7495090B5D682 /* GoogleSymbolUtilities.framework in Frameworks */,
+				1EA567107AB0427DA961AEDF /* GoogleUtilities.framework in Frameworks */,
+				97FAB0A808684DFB99C2AB45 /* libc++.tbd in Frameworks */,
+				642497BBFD9A459A934C70BF /* AddressBook.framework in Frameworks */,
+				7DE3B78B2C324DBEAB572F72 /* libsqlite3.0.tbd in Frameworks */,
+				75D7C98E2BC646AA8C0C9B7F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = 5XFitness/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* 5XFitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				58FFF4F32181CEE800FFE5E6 /* 5XFitness.entitlements */,
+				582FFED92153C60F00F88CDA /* GoogleService-Info.plist */,
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* 5XFitness-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = 5XFitness;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* 5XFitness-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				3E08D598DC224DF4A0250399 /* CDVCapture.bundle */,
+			);
+			name = Resources;
+			path = 5XFitness/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7454FC47B29B4DA7A56DA552 /* ImageIO.framework */,
+				84A1926C67F7498184FFFADA /* CoreLocation.framework */,
+				35756CACC7854D5A808BDEC0 /* AVFoundation.framework */,
+				758A14D66C8442789B58DDC7 /* WebKit.framework */,
+				2255F7849BD54D358F7BAA39 /* libz.tbd */,
+				3E80935A9B97432B9C61723F /* StoreKit.framework */,
+				99BD292A9E40431D8B2CCF75 /* MediaPlayer.framework */,
+				44DE9CE897CC40B58A51DF83 /* CoreVideo.framework */,
+				124ECA3F3F984A10A1A6DC86 /* UserNotifications.framework */,
+				AE159DB24C434CC99ABE2FAC /* FirebaseAnalytics.framework */,
+				B1C008E0F1934B8EB88B18A9 /* FirebaseCore.framework */,
+				CCA6740FB3324D35B396624D /* FirebaseInstanceID.framework */,
+				75D74A3E0C4D4FFD8F00FB9C /* FirebaseMessaging.framework */,
+				DDE7BB445C1540549C346842 /* GoogleInterchangeUtilities.framework */,
+				96CE55DD2EDF4A768407C54D /* GoogleIPhoneUtilities.framework */,
+				85843E3EDD984F1D96A17C6D /* GoogleSymbolUtilities.framework */,
+				DFD2E2F185A24451A561AE06 /* GoogleUtilities.framework */,
+				40B395DD1B2344DE9C6C4A89 /* libc++.tbd */,
+				3696A22254BF43F19053D10E /* AddressBook.framework */,
+				7022475D890741D0B5AC3CE7 /* libsqlite3.0.tbd */,
+				BA89673B492540D988FE6C4F /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+				58D1F45C20E0BFA700B77376 /* Cordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				5DFC870BBB924D3BBA206CFD /* UIImage+CropScaleOrientation.m */,
+				8515D106B5CA4243B63FF645 /* CDVCamera.m */,
+				8E619AE460E748F79AB0DB3F /* CDVJpegHeaderWriter.m */,
+				17AA17BF39574F2DB6D75EB9 /* UIImage+CropScaleOrientation.h */,
+				8BA577D96D2E495EB70C2752 /* CDVCamera.h */,
+				D0582C5BFEB34BEF876DF0EA /* CDVJpegHeaderWriter.h */,
+				E32772757B104D2B9A739D2F /* CDVExif.h */,
+				24CC8D91676B42BF9B209117 /* CDVDevice.m */,
+				F17E8AFDA9D74156967CF0B6 /* CDVDevice.h */,
+				25B0C2B9B6844E3AB7D88F5A /* CDVIonicKeyboard.m */,
+				6DB2E2165E3B4F2BB50DB5FA /* CDVIonicKeyboard.h */,
+				F84EDDDB002A4A878E111627 /* CDVWKWebViewEngine.m */,
+				AE48357A102246F5B93503E8 /* CDVWKWebViewUIDelegate.m */,
+				652E4F02FA554D8381F36950 /* CDVWKProcessPoolFactory.m */,
+				146A9978BFEF464B9C9566E3 /* GCDWebServer.m */,
+				549369647A5E498B8AE37C47 /* GCDWebServerConnection.m */,
+				55ED42B289884F56BE9F9E05 /* GCDWebServerFunctions.m */,
+				B4F18E32243947EA9366FA80 /* GCDWebServerRequest.m */,
+				A6441A1676CF498F9600F6DF /* GCDWebServerResponse.m */,
+				9AE02C8250434E77BD23C180 /* GCDWebServerDataRequest.m */,
+				CE9FCD444CFE4340B093E10A /* GCDWebServerFileRequest.m */,
+				86C9C7165CC74F648B9C846D /* GCDWebServerMultiPartFormRequest.m */,
+				2BCB872991EC4CC09EB9E209 /* GCDWebServerURLEncodedFormRequest.m */,
+				22D1D8869C43468A844D6ADD /* GCDWebServerDataResponse.m */,
+				214815F73B904184A2589CC9 /* GCDWebServerErrorResponse.m */,
+				2C1E58699A3A4A23918FAD1F /* GCDWebServerFileResponse.m */,
+				C7E4D9C7E3AF46A2B9653789 /* GCDWebServerStreamedResponse.m */,
+				8B5BABCC559C425AA32063BD /* CDVWKWebViewEngine.h */,
+				885C495AB9EF4DF895B75D2B /* CDVWKWebViewUIDelegate.h */,
+				943773581367488F9FE70989 /* CDVWKProcessPoolFactory.h */,
+				B78E791CD90341D08D01AD27 /* GCDWebServer.h */,
+				9B767E705AA14968B915E22C /* GCDWebServerConnection.h */,
+				EEEFACF007D542D9A2809F86 /* GCDWebServerFunctions.h */,
+				FEC62E5C2EF24820985A7EF1 /* GCDWebServerHTTPStatusCodes.h */,
+				04A4E229D1C94D15822DDEE0 /* GCDWebServerPrivate.h */,
+				DB1E28E41876487D81BB35D3 /* GCDWebServerRequest.h */,
+				183C17469B9B49E798F83F83 /* GCDWebServerResponse.h */,
+				89CE95304A714E1C868606CE /* GCDWebServerDataRequest.h */,
+				8277D5CCC6E54245BD155002 /* GCDWebServerFileRequest.h */,
+				ADDBD3928A9B40C3BF5ADE3F /* GCDWebServerMultiPartFormRequest.h */,
+				3AFDAC024F634CCB8062EEE6 /* GCDWebServerURLEncodedFormRequest.h */,
+				B183DA8C63B2422D86BCE64B /* GCDWebServerDataResponse.h */,
+				ADE265C7D58448E0849E2944 /* GCDWebServerErrorResponse.h */,
+				F51FFDC6A84E4DF6BF0F160B /* GCDWebServerFileResponse.h */,
+				21D8F958EB754829B99567D1 /* GCDWebServerStreamedResponse.h */,
+				37F985757C304E88BC84BA89 /* CDVSplashScreen.m */,
+				2C614320BD6240118F9EA9EF /* CDVViewController+SplashScreen.m */,
+				06CB9440B1E043609A74C0DC /* CDVSplashScreen.h */,
+				43A8F83A637C49E7999854DA /* CDVViewController+SplashScreen.h */,
+				359C0A32D77B4FA9A566A7C9 /* RMStore.m */,
+				DFC23903DB2E4DB2937D98BA /* PaymentsPlugin.m */,
+				EB483C9F999F41DF9297D765 /* RMStore.h */,
+				57F8654CEE174F8695652A44 /* PaymentsPlugin.h */,
+				141068DD77C14C75986C0021 /* CDVFile.m */,
+				8D04FF0CB64940A3A597C3B6 /* CDVLocalFilesystem.m */,
+				E7D11D9C493F4E219B5749C0 /* CDVAssetLibraryFilesystem.m */,
+				D8B6840ECA854051A8BE93BB /* CDVFile.h */,
+				244D92BA9CFA48FCAF409401 /* CDVLocalFilesystem.h */,
+				64C6CB179F2F40AB9439F1C4 /* CDVAssetLibraryFilesystem.h */,
+				4947AC0039CC4ABBBC8B0F1C /* CDVFileTransfer.m */,
+				0F4F2883CF3E4C8E9CB773F6 /* CDVFileTransfer.h */,
+				0756C470C226482FA7D3F448 /* CDVCapture.m */,
+				9C3DC0F914C648C1934856AB /* CDVCapture.h */,
+				9B013919E59A4129B4B99DB6 /* StreamingMedia.m */,
+				886DEC1E4D58462BA41BF2D4 /* LandscapeVideo.m */,
+				1C412D47D6944E128F7E0B9D /* PortraitVideo.m */,
+				54953B3765D344358DED70A6 /* StreamingMedia.h */,
+				6C17E2D5563345CCAD70AEC5 /* LandscapeVideo.h */,
+				4718EECAE0A941AE98BDBF4D /* PortraitVideo.h */,
+				13EB9E401C0F4D4D81989844 /* VideoEditor.m */,
+				CCCFC2A985D3403089504ACD /* SDAVAssetExportSession.m */,
+				59B4E89BF80D48AD8DBD639D /* VideoEditor.h */,
+				2DEB259AE4DB40AD8AA982EE /* SDAVAssetExportSession.h */,
+				5663F41E595742A893600711 /* APPBadge.m */,
+				CD086961757C45C483B12EC3 /* APPBadge.h */,
+				F828407B4AB04B359A551671 /* APPLocalNotification.m */,
+				7850A094438146CB8C391E1E /* APPNotificationContent.m */,
+				CD4DD5DBFEA84A459F23A3AA /* APPNotificationOptions.m */,
+				68DB3F5DAB704F339ED4C717 /* UNUserNotificationCenter+APPLocalNotification.m */,
+				378C45635D574D98A713F1C8 /* UNNotificationRequest+APPLocalNotification.m */,
+				3F1E5D15325B4C4FB867A296 /* APPLocalNotification.h */,
+				852B8E41A5094249AAEB7117 /* APPNotificationContent.h */,
+				6710159DF17B4FF3AABE0ED1 /* APPNotificationOptions.h */,
+				3091160EFAF24DB88F22CC8A /* UNUserNotificationCenter+APPLocalNotification.h */,
+				36B1461D5D234DA98F5844EE /* UNNotificationRequest+APPLocalNotification.h */,
+				7FCC27FA12A74E96BE1B3E0D /* FCMPlugin.m */,
+				6831885FEB274215AB211348 /* AppDelegate+FCMPlugin.m */,
+				0A100796B5B347DE937D6465 /* FCMPlugin.h */,
+				C1B439FCE46B4DE0A1F1539E /* AppDelegate+FCMPlugin.h */,
+				63F2E124E70C4B6487121681 /* Firebase.h */,
+			);
+			name = Plugins;
+			path = 5XFitness/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* 5XFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "5XFitness" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = 5XFitness;
+			productName = 5XFitness;
+			productReference = 1D6058910D05DD3D006BFB54 /* 5XFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = UB634UBLZ4;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "5XFitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* 5XFitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58D1F45C20E0BFA700B77376 /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = 58D1F45B20E0BFA700B77376 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				582FFEDA2153C60F00F88CDA /* GoogleService-Info.plist in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				C40E67C53834429CAC9F3692 /* CDVCapture.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				4D320F056BA24A6BA206BFAC /* UIImage+CropScaleOrientation.m in Sources */,
+				034E62ADDBEC43FA99FFF214 /* CDVCamera.m in Sources */,
+				3D771F5BDD794B61BBF73854 /* CDVJpegHeaderWriter.m in Sources */,
+				DAFE805F7D8B4F95897DCE1D /* CDVDevice.m in Sources */,
+				12D909B5BF044F7BB5272683 /* CDVIonicKeyboard.m in Sources */,
+				32DE31C697614A69925EC942 /* CDVWKWebViewEngine.m in Sources */,
+				AD0B19CBC75A40609C7D04F7 /* CDVWKWebViewUIDelegate.m in Sources */,
+				ABE1E0FA659B430085BE20AA /* CDVWKProcessPoolFactory.m in Sources */,
+				18A56D1637A84427A4FE0FC4 /* GCDWebServer.m in Sources */,
+				D77230A1D66A47359E039B02 /* GCDWebServerConnection.m in Sources */,
+				FE6DFBF410F547A38E360005 /* GCDWebServerFunctions.m in Sources */,
+				245949A1E893404DB3442200 /* GCDWebServerRequest.m in Sources */,
+				7FC88DF286A54C6DBAFCAF37 /* GCDWebServerResponse.m in Sources */,
+				CF4BD88F31894A29898218EC /* GCDWebServerDataRequest.m in Sources */,
+				677A45001A9C478BBBED53E0 /* GCDWebServerFileRequest.m in Sources */,
+				7C627F368AE54A49BC49F128 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				DCC4E47B189248E4832BA5D0 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				76D0D23279D54600969973D2 /* GCDWebServerDataResponse.m in Sources */,
+				B23FAB44129342CF8FE39278 /* GCDWebServerErrorResponse.m in Sources */,
+				8AAA6C83B3A240079A4A6628 /* GCDWebServerFileResponse.m in Sources */,
+				14CBC3002C9B415CAB657710 /* GCDWebServerStreamedResponse.m in Sources */,
+				22D22C46B4BE4B17A8CA3539 /* CDVSplashScreen.m in Sources */,
+				64C8B1BEA4D4465C8012C825 /* CDVViewController+SplashScreen.m in Sources */,
+				998FBBFE19D24602B479525E /* RMStore.m in Sources */,
+				70D3D5262536404188A1C284 /* PaymentsPlugin.m in Sources */,
+				4B47181A007A4F6D915B3F51 /* CDVFile.m in Sources */,
+				569D4B05187A4E9ABAF28B1C /* CDVLocalFilesystem.m in Sources */,
+				0B5EC324C49A4DDD9E995EF6 /* CDVAssetLibraryFilesystem.m in Sources */,
+				1DEF4946D08045F0868A212E /* CDVFileTransfer.m in Sources */,
+				08064995C91849BC95A7580D /* CDVCapture.m in Sources */,
+				71E24BA9686547B3931275B1 /* StreamingMedia.m in Sources */,
+				430FD725BE61421A8DCC96AD /* LandscapeVideo.m in Sources */,
+				3653D898B3CB4007A54B8C2A /* PortraitVideo.m in Sources */,
+				3770289B42134B56B574DB89 /* VideoEditor.m in Sources */,
+				5F0BB4399DCC4FF2BE188E13 /* SDAVAssetExportSession.m in Sources */,
+				B45C1781114C4A65BC731B53 /* APPBadge.m in Sources */,
+				A07B61B7B8304ED2BAB0B1A5 /* APPLocalNotification.m in Sources */,
+				B34588F19F1A4125A717D2DB /* APPNotificationContent.m in Sources */,
+				C7A95F2B52AF4F168A2A6248 /* APPNotificationOptions.m in Sources */,
+				632E05C9B03D4510A87F4A0C /* UNUserNotificationCenter+APPLocalNotification.m in Sources */,
+				CFB2DF027C2647319F63FA42 /* UNNotificationRequest+APPLocalNotification.m in Sources */,
+				84DAD6CF48CC4710938C804D /* FCMPlugin.m in Sources */,
+				8196B6529E95490980D359E1 /* AppDelegate+FCMPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = 5XFitness/5XFitness.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = UB634UBLZ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5XFitness/5XFitness-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "5XFitness/5XFitness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = 5XFitness;
+				PROVISIONING_PROFILE = "1261cc83-ff85-43a5-a5bb-2b2bd1c08564";
+				PROVISIONING_PROFILE_SPECIFIER = 5xfitnes_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = 5XFitness/5XFitness.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = UB634UBLZ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm-with-dependecy-updated\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+					"\"5XFitness/Plugins/cordova-plugin-fcm\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5XFitness/5XFitness-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "5XFitness/5XFitness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = 5XFitness;
+				PROVISIONING_PROFILE = "4185c9df-b52b-4dc0-a111-ffb4cbffe3ac";
+				PROVISIONING_PROFILE_SPECIFIER = 5xfitnes_disb;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "5XFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "5XFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

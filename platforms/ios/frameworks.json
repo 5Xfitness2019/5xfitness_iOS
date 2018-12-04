@@ -1,0 +1,15 @@
+{
+    "ImageIO.framework": 1,
+    "CoreLocation.framework": 2,
+    "AVFoundation.framework": 2,
+    "WebKit.framework": 1,
+    "libz.tbd": 3,
+    "StoreKit.framework": 1,
+    "MediaPlayer.framework": 2,
+    "CoreVideo.framework": 1,
+    "UserNotifications.framework": 1,
+    "libc++.tbd": 1,
+    "AddressBook.framework": 1,
+    "libsqlite3.0.tbd": 1,
+    "Security.framework": 1
+}

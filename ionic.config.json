@@ -1,0 +1,8 @@
+{
+  "name": "5xFitness",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

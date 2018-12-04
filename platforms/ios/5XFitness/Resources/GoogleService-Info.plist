@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>404725215393-n91fibtnq3iothtbmn0q8pa40g502jvb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.404725215393-n91fibtnq3iothtbmn0q8pa40g502jvb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_lhyMFO6n6Ks7f53n7kuJzTFKB8y-K_w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>404725215393</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xfitness.xfitness</string>
+	<key>PROJECT_ID</key>
+	<string>fivex-5fc81</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fivex-5fc81.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:404725215393:ios:0092aa8e5b03c834</string>
+	<key>DATABASE_URL</key>
+	<string>https://fivex-5fc81.firebaseio.com</string>
+</dict>
+</plist>
